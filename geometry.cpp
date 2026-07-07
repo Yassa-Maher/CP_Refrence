@@ -325,7 +325,57 @@ u have 3 pts represent triangle and u want its area and the diameter of the circ
                 ld d = (a * b * c) / (2.0 * area); // diameter
                 ld ans = d * 3.141592653589793;
                 cout << fixed << setprecision(2) << ans << '\n';
-//////////////////////////////////////////
+=====================================================================
+
+	
+=============some Geometric shapes================================
+=================================================================
 
 
+### 1️⃣ Parallelogram
 
+* **Basic Properties:**
+* Opposite sides are parallel and equal in length.
+* Opposite angles are equal in measure.
+* Consecutive angles (on the same side) are supplementary (add up to 180°).
+* Diagonals bisect each other (intersect at their midpoints) but are not equal or perpendicular.
+
+
+* **Formulas:**
+* **Perimeter** = 2 × (sum of adjacent sides)
+* **Area** = base × height
+* **Area (Trigonometry)** = product of adjacent sides × sin(angle between them)
+
+
+### 2️⃣ Rhombus
+
+*(A special parallelogram with all sides equal)*
+
+* **Basic Properties:**
+* All four sides are strictly equal in length.
+* Opposite sides are parallel.
+* Opposite angles are equal in measure.
+* **Special Feature:** Diagonals are perpendicular to each other (intersect at 90°) and bisect each other. They also bisect the vertex angles they pass through.
+
+
+* **Formulas:**
+* **Perimeter** = 4 × side
+* **Area (Most common)** = 1/2 × (diagonal 1 × diagonal 2)
+* **Area (Base & Height)** = side × height
+* **Area (Trigonometry)** = side² × sin(angle between sides)
+
+
+### 3️⃣ Trapezoid
+
+* **Basic Properties:**
+* A quadrilateral with **only one pair** of opposite sides that are parallel (called the bases: major and minor).
+* The other two sides are non-parallel (called the legs).
+* Consecutive angles between the parallel bases (along the same leg) are supplementary (add up to 180°).
+* **Special Case (Isosceles Trapezoid):** The non-parallel legs are equal in length, base angles are equal, and the diagonals are equal.
+
+
+* **Formulas:**
+* **Perimeter** = sum of all four sides (base 1 + base 2 + leg 1 + leg 2)
+* **Area** = 1/2 × (sum of parallel bases) × height
+* **Area (Alternative)** = median × height *(where median = half the sum of the parallel bases)
+---
