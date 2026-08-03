@@ -1,0 +1,8 @@
+Relation to Minimum Number of Primes
+For any integer (x > 1):
+If (x) is prime → minimum number of primes needed is (1)
+If (x) is even → minimum number is usually (2) (by Goldbach’s conjecture)
+If (x) is odd:
+if (x - 2) is prime → minimum number is (2)
+otherwise → minimum number is (3)
+Thus, any integer greater than (1) can be represented using at most three prime numbers.
